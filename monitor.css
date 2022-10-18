@@ -1,0 +1,100 @@
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: rgb(20, 18, 18);
+    overflow: auto;
+    padding: 10%;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: rgb(231, 225, 225);
+    text-decoration: none;
+    font-size: 55px;
+  }
+  
+  /* Navbar links on mouse-over 
+  .navbar a:hover {
+    color: gray ;
+  }
+  
+  /* Current/active navbar link */
+  /*.active {
+    background-color: ;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+
+  .primeiro {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .segundo {
+    border-style: solid;
+    border-width: 53x;
+    border-color: black;
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .terceiro {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .quarto {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+  }
+
+
+  .bi-battery-half{
+    height: 150px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+  }
+
+  .bi-fuel-pump{
+    height: 150px;
+    padding-right: 25px;
+    cursor: pointer;
+  }
+
+  .bi-geo-alt-fill{
+    height: 150px;
+
+  }
+
+  #txt{
+    color: white;
+    padding-right: 5%;
+    font-size: 55px;
+    cursor: pointer;
+  }

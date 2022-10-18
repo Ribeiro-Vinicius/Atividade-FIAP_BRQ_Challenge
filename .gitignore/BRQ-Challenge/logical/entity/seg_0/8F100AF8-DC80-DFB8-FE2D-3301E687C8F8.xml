@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F100AF8-DC80-DFB8-FE2D-3301E687C8F8" name="CASA">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 01:52:15 UTC</createdTime>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="endereco" id="87F26F60-0729-7D01-EAF8-22D3F1E75897">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 02:41:56 UTC</createdTime>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wifi" id="53DEB004-2E7A-3EC2-9E88-88C33170E44A">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 02:43:11 UTC</createdTime>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="444E8A02-7615-688B-EBD1-18B42CADF33B">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 02:58:06 UTC</createdTime>
+<generatorID>0A8A3B0B-0A06-1DAD-813C-7C1FA47DDCEE</generatorID>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FD53FDB8-BA9F-178E-C5DB-157E7A098335</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="538C570F-5A05-A7D4-08AF-94B68821E5FC" name="CASA PK">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 02:42:05 UTC</createdTime>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87F26F60-0729-7D01-EAF8-22D3F1E75897</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

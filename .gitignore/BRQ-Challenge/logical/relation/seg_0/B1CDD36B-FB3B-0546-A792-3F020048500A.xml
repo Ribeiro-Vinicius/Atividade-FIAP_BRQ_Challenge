@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ABRIR" directorySegmentName="seg_0" id="B1CDD36B-FB3B-0546-A792-3F020048500A">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 02:19:08 UTC</createdTime>
+<ownerDesignName>BRQ-Challenge</ownerDesignName>
+<engineerTo>
+<item key="CBA50024-78ED-5C71-31D7-426E9DFE95DE" value="true"/>
+</engineerTo>
+<sourcePk>538C570F-5A05-A7D4-08AF-94B68821E5FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F100AF8-DC80-DFB8-FE2D-3301E687C8F8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A21450C6-339B-68EA-E245-A5F01F860C33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

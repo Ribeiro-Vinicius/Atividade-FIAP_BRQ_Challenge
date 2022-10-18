@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BRQ-Challenge" id="E921178E-8F80-0B37-9C42-4E8565786F87" version="3.5">
+<createdBy>vinicius</createdBy>
+<createdTime>2022-10-01 01:48:48 UTC</createdTime>
+<ownerDesignName>Challenge-BRQ</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E921178E-8F80-0B37-9C42-4E8565786F87</designId>
+</OSDM_Design>

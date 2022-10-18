@@ -1,0 +1,92 @@
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: rgb(20, 18, 18);
+    overflow: auto;
+    padding: 10%;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: rgb(231, 225, 225);
+    text-decoration: none;
+    font-size: 55px;
+  }
+  
+  /* Navbar links on mouse-over */
+  /*.navbar a:hover {
+    background-color: ;
+  }
+  
+  /* Current/active navbar link */
+  /*.active {
+    background-color: ;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+
+
+
+  .container-fluid{
+    background-color: rgb(20, 13, 119);
+    overflow: auto;
+    width: 100%;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+  }
+
+  .bi-lightbulb .car-gate .bi-pin-map{
+    padding-left: 85px;
+  }
+
+  h1{
+    color: black;
+    float: inline-end;
+    position: center;
+  }
+
+  fieldset{
+    float: inline-end;
+    color: black;
+    padding: 25px;
+    margin: 35px;
+
+  }
+
+  p,
+label{
+    font: 1rem 'Fira Sans', sans-serif;
+    color: black;
+}
+
+input{
+    margin: .4rem;
+}
+
+ol{
+  
+  padding: 25px;
+}
+
+legend{
+  padding-left: 0 px;
+  margin-left: 0px;
+}
+
+#txt{
+  color: white;
+  padding-right: 5%;
+  font-size: 55px;
+  cursor: pointer;
+}

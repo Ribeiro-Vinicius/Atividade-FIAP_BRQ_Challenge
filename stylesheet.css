@@ -1,0 +1,129 @@
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: rgb(20, 18, 18);
+    overflow: auto;
+    padding: 10%;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: rgb(231, 225, 225);
+    text-decoration: none;
+    font-size: 55px;
+  }
+  
+  /* Navbar links on mouse-over 
+  .navbar a:hover {
+    color: gray ;
+  } 
+  
+  /* Current/active navbar link */
+  /*.active {
+    background-color: ;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+ 
+
+  .container-fluid {
+    background-color: rgb(20, 13, 119);
+    overflow: auto;
+    width: 100%;
+    display: block;
+    padding-top: 15px;    
+  }
+
+  .bi-lightbulb .car-gate .bi-fuel-pump .bi-card-checklist  .bi-clipboard2-pulse{
+    
+    cursor: pointer;
+  }
+
+ /* .bi-lightbulb {
+    color: yellow;
+    cursor: pointer;
+    float: left;
+    height: 250px;
+  } */
+
+  /*
+
+  .bi-pin-map {
+    float: right;
+    height: 250px;
+  } 
+
+  */
+    footer {
+    width: max-content;
+    padding-top: 155px;
+    font-style: oblique;
+  } 
+
+  .justify-content-start{
+    padding-top: 35px;
+  } 
+
+  p{
+    color: white;
+  }
+
+
+  .bi-lightbulb{
+    color: yellow;
+    height: 250px;
+  }
+
+  .car-gate{
+    height: 250px;
+    padding-left: 15%;
+    
+  }
+
+  .bi-fuel-pump{
+    height: 200px;
+    float: right;
+    color:crimson;
+  }
+
+
+ /* i{
+    font-size: 205px;
+    padding-left: 155px;
+    cursor: pointer;
+    color: black;
+  } */
+
+  .justify-content-center{
+    padding-bottom: 105px;
+    padding-top: 100px;
+  } 
+
+  .bi-clipboard2-pulse{
+    height: 250px;
+    cursor: pointer;
+    color: black;
+    float: right;
+  }
+
+  .bi-card-checklist{
+    height: 250px;
+    float: left;
+    color: green;
+  }
+
+  #txt{
+    color: white;
+    padding-right: 5%;
+    font-size: 55px;
+    cursor: pointer;
+  }
